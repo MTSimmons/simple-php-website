@@ -3,4 +3,4 @@
 echo "Starting the service...  Hold on to your butts!"
 
 
-php -S localhost:80
+apache2ctl -D FOREGROUND
